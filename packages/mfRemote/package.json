@@ -3,7 +3,7 @@
   "version" : "0.0.0",
   "private": true,
   "scripts": {
-    "start": "NODE_ENV=test umi dev",
+    "start": "umi dev",
     "build": "umi build",
     "build:test": "NODE_ENV=test umi webpack",
     "postinstall": "umi generate tmp",
